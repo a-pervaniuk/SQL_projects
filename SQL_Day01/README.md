@@ -2,7 +2,7 @@
 
 ## Database Model:
 
-![schema](misc/images/schema.png)
+![schema](images/schema.png)
 
 1. **pizzeria** table (Dictionary Table with available pizzerias)
 
