@@ -166,7 +166,7 @@ Find the same pizza names that have the same price, but from different pizzerias
 | Language                                     | ANSI SQL           |
 
 Please register a new pizza with the name "greek pizza" (use id = 19) with the price of 800 rubles in the restaurant "Dominos" (pizzeria_id = 2).
-**Warning**: this exercise is likely to cause the modification of data in the wrong way. Actually, you can restore the original database model with data from the [link](materials/model.sql).
+**Warning**: this exercise is likely to cause the modification of data in the wrong way. Actually, you can restore the original database model.
 
 ## Exercise 08 — Let’s cook a new type of pizza with more dynamics
 
@@ -180,7 +180,7 @@ Please register a new pizza with the name "greek pizza" (use id = 19) with the p
 | SQL Syntax Pattern                                              | Don’t use direct numbers for identifiers of Primary Key and pizzeria |
 
 Please register a new pizza with the name "sicilian pizza" (whose id should be calculated by the formula "maximum id value + 1") with the price of 900 rubles in the restaurant "Dominos" (please use internal query to get the identifier of the pizzeria).
-**Warning**: This exercise is likely to cause the modification of data in the wrong way. Actually, you can restore the original database model with data from the link in the "Rules of the day" section and replay the script from Exercise 07.
+**Warning**: This exercise is likely to cause the modification of data in the wrong way. Actually, you can restore the original database model and replay the script from Exercise 07.
 
 ## Exercise 09 — New pizza means new visits
 
@@ -194,7 +194,7 @@ Please register a new pizza with the name "sicilian pizza" (whose id should be c
 | SQL Syntax Pattern                      | Don’t use direct numbers for identifiers of Primary Key and pizzeria |
 
 Please record new visits to Domino's restaurant by Denis and Irina on February 24, 2022.
-**Warning**: This exercise is likely to cause the modification of data in the wrong way. Actually, you can restore the original database model with data from the link in the "Rules of the Day" section and replay the script from Exercises 07 and 08.
+**Warning**: This exercise is likely to cause the modification of data in the wrong way. Actually, you can restore the original database model and replay the script from Exercises 07 and 08.
 
 ## Exercise 10 — New visits means new orders
 
@@ -208,7 +208,7 @@ Please record new visits to Domino's restaurant by Denis and Irina on February 2
 | SQL Syntax Pattern                       | Don’t use direct numbers for identifiers of Primary Key and pizzeria |
 
 Please register new orders from Denis and Irina on February 24, 2022 for the new menu with "sicilian pizza".
-**Warning**: This exercise will probably cause you to change data in the wrong way. Actually, you can restore the original database model with data from the link in the Rules of the Day section and replay the script from Exercises 07, 08 and 09.
+**Warning**: This exercise will probably cause you to change data in the wrong way. Actually, you can restore the original database model and replay the script from Exercises 07, 08 and 09.
 
 ## Exercise 11 — “Improve” a price for clients
 
@@ -220,7 +220,7 @@ Please register new orders from Denis and Irina on February 24, 2022 for the new
 | Language                                     | ANSI SQL           |
 
 Please change the price of "greek pizza" to -10% of the current value.
-**Warning**: This exercise is likely to cause you to change data in the wrong way. Actually, you can rebuild the original database model with data from the link in the "Rules of the Day" section and replay the script from Exercises 07, 08, 09, and 10.
+**Warning**: This exercise is likely to cause you to change data in the wrong way. Actually, you can rebuild the original database model and replay the script from Exercises 07, 08, 09, and 10.
 
 ## Exercise 12 — New orders are coming!
 
@@ -240,7 +240,7 @@ Please change the price of "greek pizza" to -10% of the current value.
 - Don’t use atomic `INSERT` statements |
 
 Please register new orders of all persons for "greek pizza" on February 25, 2022.
-**Warning**: This exercise will probably cause you to change data in the wrong way. Actually, you can restore the original database model with data from the link in the "Rules of the Day" section and replay the script from Exercises 07, 08, 09, 10 and 11.
+**Warning**: This exercise will probably cause you to change data in the wrong way. Actually, you can restore the original database model and replay the script from Exercises 07, 08, 09, 10 and 11.
 
 ## Exercise 13 — Money back to our customers
 
@@ -252,4 +252,4 @@ Please register new orders of all persons for "greek pizza" on February 25, 2022
 | Language                                 | ANSI SQL           |
 
 Write 2 SQL (DML) statements that delete all new orders from Exercise #12 based on the order date. Then delete "greek pizza" from the menu.
-**Warning**: This exercise is likely to cause you to modify data in the wrong way. Actually, you can rebuild the original database model with data from the link in the "Rules of the Day section" and replay the script from Exercises 07, 08, 09, 10, 11, 12, and 13.
+**Warning**: This exercise is likely to cause you to modify data in the wrong way. Actually, you can rebuild the original database model and replay the script from Exercises 07, 08, 09, 10, 11, 12, and 13.
