@@ -3,6 +3,7 @@ FROM person_order po
 JOIN menu m ON m.id = po.menu_id
 JOIN pizzeria pz ON m.pizzeria_id = pz.id
 GROUP BY pz.name
+ORDER BY 2 DESC
 LIMIT 3)
 
 UNION ALL
@@ -11,6 +12,7 @@ UNION ALL
 FROM person_visits pv
 JOIN pizzeria pz ON pv.pizzeria_id = pz.id
 GROUP BY pz.name
+ORDER BY 2 DESC
 LIMIT 3)
 
 ORDER BY action_type ASC, count DESC;
